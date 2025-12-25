@@ -447,13 +447,16 @@ CLI(命令行界面)
   />
 </div>
 
-- [Next.js](https://nextjs.org/)
-
 ---
 
 # Vue
 
-- [Nuxt.js](https://nuxt.com/)
+<div style="transform: scale(0.5); transform-origin: top left; width: 200%; height: 170%;">
+  <iframe 
+    src="https://stackblitz.com/edit/vitejs-vite-kpefb5wp?file=src%2FApp.vue&terminal=dev" 
+    class="w-full h-full"
+  />
+</div>
 
 ---
 
