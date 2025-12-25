@@ -357,3 +357,4 @@ CLI(命令行界面)
 - Next.js/Nuxt.js
 - Tailwind CSS
 - Vite
+- Shadcn UI/Nuxt UI
