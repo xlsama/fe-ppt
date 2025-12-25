@@ -358,3 +358,29 @@ CLI(命令行界面)
 - Tailwind CSS
 - Vite
 - Shadcn UI/Nuxt UI
+
+---
+
+# HTML + CSS
+
+### HTML 定义了网页内容的含义和结构。
+
+- 参考 https://developer.mozilla.org/zh-CN/docs/Web/HTML
+
+<br>
+
+### CSS 定义了网页内容的样式和布局。
+
+- 参考 https://developer.mozilla.org/zh-CN/docs/Web/CSS
+
+<br>
+
+这里推荐直接学习 [Tailwind CSS](https://tailwindcss.com/)。
+
+---
+
+# TypeScript
+
+[TypeScript 在 2025 年 8 月超越 Python 和 JavaScript，成为 GitHub 上使用最广泛的语言。](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/)
+
+<img src="./img/5.png" alt="TypeScript Trend" class="h-100">
