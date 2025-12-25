@@ -441,3 +441,15 @@ TypeScript 的类型，配置 Lint 工具，可以让 AI 写出更安全、更�
 
 - Shadcn UI
 - Nuxt UI
+
+---
+
+# 前端开发分享
+
+- Cursor
+
+  - Debug Mode
+
+- [Yaak](https://yaak.app/)
+
+  - Postman 替代品
