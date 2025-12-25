@@ -353,8 +353,7 @@ CLI(命令行界面)
 - CSS
 - JavaScript
 - TypeScript
-- React
-- Vue
-- Angular
-- Svelte
-- Next.js
+- React/Vue
+- Next.js/Nuxt.js
+- Tailwind CSS
+- Vite
