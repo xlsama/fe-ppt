@@ -381,6 +381,28 @@ CLI(命令行界面)
 
 # TypeScript
 
-[TypeScript 在 2025 年 8 月超越 Python 和 JavaScript，成为 GitHub 上使用最广泛的语言。](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/)
+- [TypeScript 在 2025 年 8 月超越 Python 和 JavaScript，成为 GitHub 上使用最广泛的语言。](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/)
 
-<img src="./img/5.png" alt="TypeScript Trend" class="h-100">
+<p v-click class="text-xs">
+在大型项目中，一个类型“小改动”可能会导致很多处代码需要跟着调整，而这些需要调整的地方在“小改动”前后可能不会有任何报错提示，开发者只能靠肉眼排查，很难且容易遗漏。
+我们使用 Typescript 的主要目的就是【类型安全】（type-safe），借助类型声明避免程序做错误的事情。
+</p>
+
+<img v-click v-show="$clicks === 1" src="./img/6.png"  class="h-20"/>
+
+<img v-click v-show="$clicks === 2" src="./img/5.png" alt="TypeScript Trend" class="h-100">
+
+---
+
+# React
+
+---
+
+# Vue
+
+---
+
+# UI 库
+
+- Shadcn UI
+- Nuxt UI
