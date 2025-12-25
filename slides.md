@@ -440,20 +440,12 @@ CLI(命令行界面)
 
 # React
 
-```tsx
-function MyButton() {
-  return <button>I'm a button</button>
-}
-
-export default function MyApp() {
-  return (
-    <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
-    </div>
-  )
-}
-```
+<div style="transform: scale(0.5); transform-origin: top left; width: 200%; height: 170%;">
+  <iframe 
+    src="https://stackblitz.com/edit/vitejs-vite-qzaz533v?embed=1&file=src%2FApp.tsx" 
+    class="w-full h-full"
+  />
+</div>
 
 - [Next.js](https://nextjs.org/)
 
