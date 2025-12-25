@@ -349,15 +349,29 @@ CLI(命令行界面)
 
 # 前端技术栈
 
-- HTML
-- CSS
-- JavaScript
-- TypeScript
-- React/Vue
-- Next.js/Nuxt.js
-- Tailwind CSS
-- Vite
-- Shadcn UI/Nuxt UI
+<div class="text-xs">
+
+- 基础
+
+  - HTML
+  - CSS
+  - JavaScript
+
+- 进阶
+  - TypeScript
+    - 类型安全、便于维护
+    - 目前几乎所有主流的前端脚手架和框架在创建新项目时，都将 TypeScript 作为首选或默认配置
+    - 随着 AI 编码工具（如 Cursor、Copilot）的普及，TS 的强类型系统能显著降低 AI 生成代码的错误率。研究显示，AI 生成的代码中 94% 的错误是由于类型检查失败导致的，使用 TS 可以让 AI 更好地理解开发者意图。
+  - Tailwind CSS
+    - 最流行的 CSS 框架、响应式设计、零冗余生成的体积
+  - Vite
+  - React/Vue（选一个即可）
+    - 前端框架、声明式 UI、组件化
+  - Next.js/Nuxt.js（选一个即可）
+    - 路由、状态管理、SSR（服务器端渲染）/SSG（静态站点生成）
+  - Shadcn UI/Nuxt UI（选一个即可）
+
+</div>
 
 ---
 
@@ -375,7 +389,7 @@ CLI(命令行界面)
 
 <br>
 
-这里推荐直接学习 [Tailwind CSS](https://tailwindcss.com/)。
+这里推荐直接看 [Tailwind CSS](https://tailwindcss.com/)。
 
 ---
 
@@ -391,6 +405,10 @@ CLI(命令行界面)
 <div 
   v-click
   v-show="$clicks === 2"
+  v-motion
+  :initial="{ x: 80 }"
+  :enter="{ x: 0 }"
+  :leave="{ x: -80 }"
 >
 
 下图是某错误处理平台收集统计的 JavaScript Top10 错误，其中 7 个 TypeError，1 个 ReferenceError：
@@ -404,6 +422,10 @@ CLI(命令行界面)
 <div 
   v-click 
   v-show="$clicks === 3"
+  v-motion
+  :initial="{ x: 80 }"
+  :enter="{ x: 0 }"
+  :leave="{ x: -80 }"
 >
 
 - [TypeScript 在 2025 年 8 月超越 Python 和 JavaScript，成为 GitHub 上使用最广泛的语言。](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/)
@@ -414,18 +436,24 @@ CLI(命令行界面)
 
 </div>
 
-<div 
-  v-click 
-  v-show="$clicks === 4"
->
-
-TypeScript 的类型，配置 Lint 工具，可以让 AI 写出更安全、更稳定的代码。
-
-</div>
-
 ---
 
 # React
+
+```tsx
+function MyButton() {
+  return <button>I'm a button</button>
+}
+
+export default function MyApp() {
+  return (
+    <div>
+      <h1>Welcome to my app</h1>
+      <MyButton />
+    </div>
+  )
+}
+```
 
 - [Next.js](https://nextjs.org/)
 
