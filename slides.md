@@ -381,12 +381,12 @@ CLI(命令行界面)
 
 # TypeScript
 
-<p v-click class="text-xs">
+<div v-click class="text-xs">
 
 在大型项目中，一个类型“小改动”可能会导致很多处代码需要跟着调整，而这些需要调整的地方在“小改动”前后可能不会有任何报错提示，开发者只能靠肉眼排查，很难且容易遗漏。
 我们使用 Typescript 的主要目的就是【类型安全】（type-safe），借助类型声明避免程序做错误的事情。
 
-</p>
+</div>
 
 <div 
   v-click
