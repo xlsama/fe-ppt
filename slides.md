@@ -28,10 +28,10 @@ fonts:
 
 前端（Front-end） 指的是互联网产品中直接面向用户的部分。它是用户能看到、听到、触摸到并进行交互的界面总和，也被称为“客户端”。
 
-## 前端的应用领域
-
 <div class='grid grid-cols-2'>
 <div>
+
+## 前端的应用领域
 
 - <span v-mark="{ type: 'circle', color: 'orange', at: 1 }">Web</span>
 
@@ -210,7 +210,7 @@ ChatGPT、豆包等 AI 助手
 
 CLI(命令行界面)
 
-![Web Screenshot](https://static.wildfirechat.cn/user-list.png)
+![CLI Screenshot 1](https://kean.blog/images/posts/claude/claude-code-screen-01.png)
 
 </div>
 
