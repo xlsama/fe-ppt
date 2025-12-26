@@ -377,19 +377,29 @@ CLI(命令行界面)
 
 # HTML + CSS
 
-### HTML 定义了网页内容的含义和结构。
+<div class='text-xs'>
 
-- 参考 https://developer.mozilla.org/zh-CN/docs/Web/HTML
+HTML 定义了网页内容的含义和结构，参考 https://developer.mozilla.org/zh-CN/docs/Web/HTML
 
-<br>
-
-### CSS 定义了网页内容的样式和布局。
-
-- 参考 https://developer.mozilla.org/zh-CN/docs/Web/CSS
+CSS 定义了网页内容的样式和布局，参考 https://developer.mozilla.org/zh-CN/docs/Web/CSS
 
 <br>
 
 这里推荐直接看 [Tailwind CSS](https://tailwindcss.com/)。
+
+Tailwind CSS 的核心优势可总结如下：
+
+- 减少上下文切换：修改样式时，无需在 HTML 和 CSS 文件之间来回跳转。
+
+- 免除命名困扰：彻底摆脱了为元素苦思冥想类名的负担。
+
+- 强化设计一致性：通过使用预设的设计令牌，天然保证了视觉风格的统一。
+
+- 提升可维护性：过去修改一个 CSS 类可能产生意外的副作用，现在这种担忧不复存在。
+
+- AI 大模型友好：因为 Tailwind CSS 的内聚设计，使得 AI 模型生成 Tailwind CSS 更简单。
+
+</div>
 
 ---
 
